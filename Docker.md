@@ -78,9 +78,9 @@ Coloque o conteúdo abaixo no arquivo .conf
 ```
 server {
     listen 80; //SUBSTITUIR COM A PORTA QUE SERÁ ACESSADA, O PADRÃO É 80
-    server_name sub.domain.com.br; 
+    server_name sub.domain.com.br;
 
-   location / {      
+   location / {
        proxy_set_header Host $host;
        proxy_set_header X-Forwarded-Proto $scheme;
        proxy_set_header X-Forwarded-Port $server_port;
@@ -89,10 +89,21 @@ server {
        proxy_set_header Connection "upgrade";
        proxy_pass http://127.0.0.1:8080; //SUBSTITUIR COM A PORTA QUE O CONTAINER IRÁ RODAR
        proxy_http_version 1.1;
-       
+
        # This allows the ability for the execute shell window to remain open for up to 15 minutes. Without this parameter, the default is 1 minute and will automatically close.
        proxy_read_timeout 900s;
     }
+}
+```
+
+Para colocar o header no nginx ao invés do código, utilize o código abaixo:
+
+```
+location / {
+    # 1. hide the Access-Control-Allow-Origin from the server response
+    proxy_hide_header Access-Control-Allow-Origin;
+    # 2. add a new custom header that allows all * origins instead
+    add_header Access-Control-Allow-Origin *;
 }
 ```
 
@@ -113,7 +124,7 @@ $ sudo apt install python-certbot-nginx
 ## Configurando o SSL nos domínios
 
 ```
-$ sudo certbot --nginx -d sub.domain.com.br -d sub2.domain.com.br 
+$ sudo certbot --nginx -d sub.domain.com.br -d sub2.domain.com.br
 ```
 
 Você verá o seguinte retorno:
@@ -138,7 +149,7 @@ Escolha a opção 2.
 $ sudo certbot renew --dry-run
 ```
 
-## Instalando o docker 
+## Instalando o docker
 
 Pule essa etapa se já estiver com o docker configurado
 
