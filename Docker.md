@@ -181,6 +181,11 @@ Você pode remover um container com:
 $ docker rm <container_id_or_name>
 ```
 
+Você pode acessar um container usando:
+```
+docker container exec -it <container_id_or_name> bash
+```
+
 ## Buildando um Dockerfile
 
 ```
