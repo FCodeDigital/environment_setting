@@ -15,14 +15,14 @@ Emoji | Code | Commit Type
 :fire: | `:fire:` | quando remover códigos ou arquivos
 :green_heart: | `:green_heart:` | quando corrigir uma build no CI
 :white_check_mark: | `:white_check_mark:` | quando adicionar testes
-:lock: | `:lock:` | quando melhorar a seguranÃ§a
+:lock: | `:lock:` | quando melhorar a segurança
 :arrow_up: | `:arrow_up:` | quando der upgrade em dependências
 :arrow_down: | `:arrow_down:` | quando der downgrade em dependências
 :poop: | `:poop:` | deprecated
 :construction: | `:construction:` | em construção
 :rocket: | `:rocket:` | nova feature
 :see_no_evil: | `:see_no_evil:` | gambiarra
-:gift: | `:gift:` | nova versÃ£o
+:gift: | `:gift:` | nova versão
 
 ### Exemplo
 ```bash
