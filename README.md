@@ -1,4 +1,7 @@
-# Documentação
+# Documentação da FCode
+
+![FCode Logo](/images/logo-fcode.png)
+
 Repositório com informações de como configurar o ambiente de desenvolvimento básico da FCode
 
 * [Exemplos de Marcação para READMES](https://guides.github.com/features/mastering-markdown/)
