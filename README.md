@@ -6,8 +6,11 @@ Repositório com informações de como configurar o ambiente de desenvolvimento 
 
 ## Documentações Internas
 
+### GIT
 * [Usando o Git](/Git.md)
 * [Padrão de Mensagem em Commits](/Commits.md)
+
+## Configurações de Ambiente
 * [Configurando o Docker no NGinx com Let's Encrypt](/Docker.md)
 * [Criado um VirtualHost no Xampp (Windows)](/VHost.md)
 
