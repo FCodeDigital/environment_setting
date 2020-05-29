@@ -87,13 +87,13 @@ Vamos usá-lo como base:
 </VirtualHost>
 ```
 
-*VirtualHost: Tag definindo as configurações do virtual host.
-*ServerAdmin: Endereço de contato.
-*DocumentRoot: Caminho completo até a pasta que será acessada.
-*ServerName: Nome do host que será acessado.
-*ServerAlias: Nomes alternativos para o host.
-*ErrorLog:  Nome do arquivo que o servidor registrará os erros encontrados.
-*CustomLog: Nome do arquivo para as requisições.
+* VirtualHost: Tag definindo as configurações do virtual host.
+* ServerAdmin: Endereço de contato.
+* DocumentRoot: Caminho completo até a pasta que será acessada.
+* ServerName: Nome do host que será acessado.
+* ServerAlias: Nomes alternativos para o host.
+* ErrorLog:  Nome do arquivo que o servidor registrará os erros encontrados.
+* CustomLog: Nome do arquivo para as requisições.
 
 Iremos adicionar a nossa configuração, apontando para onde será configurado o virtual host. No nosso projeto seria:
 
