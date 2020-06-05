@@ -16,6 +16,9 @@ Repositório com informações de como configurar o ambiente de desenvolvimento 
 * [Regras de htaccess no CodeIgniter](/HtaccessCodeIgniter.md)
 * [Regras de htaccess para WWW e HTTPS](/HtaccessHTTP.md)
 
-## Documentações Externas
+#### Migrations
+* [Configurando migrations](/Doctrine.md)
+
+#### Documentações Externas
 
 * [Exemplos de Marcação para READMES](https://guides.github.com/features/mastering-markdown/)
