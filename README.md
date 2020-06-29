@@ -7,17 +7,21 @@ Repositório com informações de como configurar o ambiente de desenvolvimento 
 ## Documentações Internas
 
 #### GIT
-* [Usando o Git](/Git.md)
-* [Padrão de Mensagem em Commits](/Commits.md)
+* [Usando o Git](/git/Git.md)
+* [Padrão de Mensagem em Commits](/git/Commits.md)
 
 #### Configurações de Ambiente
-* [Configurando o Docker no NGinx com Let's Encrypt](/Docker.md)
-* [Criado um VirtualHost no Xampp (Windows)](/VHost.md)
-* [Regras de htaccess no CodeIgniter](/HtaccessCodeIgniter.md)
-* [Regras de htaccess para WWW e HTTPS](/HtaccessHTTP.md)
+* [Configurando o Docker no NGinx com Let's Encrypt](/configuracoes_ambiente/Docker.md)
+* [Criado um VirtualHost no Xampp (Windows)](/configuracoes_ambiente/VHost.md)
+* [Regras de htaccess no CodeIgniter](/configuracoes_ambiente/HtaccessCodeIgniter.md)
+* [Regras de htaccess para WWW e HTTPS](/configuracoes_ambiente/HtaccessHTTP.md)
+
+#### Locaweb
+* [Alterando versão do PHP](/locaweb/PHPVersion.md)
+* [Configurando PHP.ini](/locaweb/PHPini.md)
 
 #### Migrations
-* [Configurando migrations](/Doctrine.md)
+* [Configurando migrations](/migrations/Doctrine.md)
 
 #### Documentações Externas
 
