@@ -12,6 +12,7 @@ Repositório com informações de como configurar o ambiente de desenvolvimento 
 
 #### Configurações de Ambiente
 * [Configurando o Docker no NGinx com Let's Encrypt](/configuracoes_ambiente/Docker.md)
+* [Configurando o Docker-Compose](/configuracoes_ambiente/DockerCompose.md)
 * [Criado um VirtualHost no Xampp (Windows)](/configuracoes_ambiente/VHost.md)
 * [Regras de htaccess no CodeIgniter](/configuracoes_ambiente/HtaccessCodeIgniter.md)
 * [Regras de htaccess para WWW e HTTPS](/configuracoes_ambiente/HtaccessHTTP.md)
