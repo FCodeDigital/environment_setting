@@ -90,6 +90,10 @@ server {
        proxy_pass http://127.0.0.1:8080; //SUBSTITUIR COM A PORTA QUE O CONTAINER IRÁ RODAR
        proxy_http_version 1.1;
 
+       proxy_buffer_size 128k;
+       proxy_buffers 4 256k;
+       proxy_busy_buffers_size 256k;
+
        # This allows the ability for the execute shell window to remain open for up to 15 minutes. Without this parameter, the default is 1 minute and will automatically close.
        proxy_read_timeout 900s;
     }
