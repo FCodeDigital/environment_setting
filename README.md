@@ -25,7 +25,7 @@ Repositório com informações de como configurar o ambiente de desenvolvimento 
 * [Configurando migrations](/migrations/Doctrine.md)
 
 #### Frontend
-* [Mediaqueries](/Frontend/media_queries.md)
+* [Mediaqueries](/frontend/media_queries.md)
 
 #### Documentações Externas
 
