@@ -120,9 +120,15 @@ $ systemctl reload nginx
 
 ## Instalando o Let's Encrypt
 
+Em versões ubuntu mais antigas, utilize
 ```
 $ sudo add-apt-repository ppa:certbot/certbot
 $ sudo apt install python-certbot-nginx
+```
+
+Nas novas versões a instalação pode ser feita utilizando:
+```
+$ sudo apt-get install python3-certbot-nginx
 ```
 
 ## Configurando o SSL nos domínios
