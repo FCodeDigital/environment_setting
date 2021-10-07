@@ -97,6 +97,8 @@ server {
        # This allows the ability for the execute shell window to remain open for up to 15 minutes. Without this parameter, the default is 1 minute and will automatically close.
        proxy_read_timeout 900s;
     }
+    
+    client_max_body_size 200M;
 }
 ```
 
