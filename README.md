@@ -8,6 +8,7 @@ Repositório com informações de como configurar o ambiente de desenvolvimento 
 
 #### GIT
 * [Usando o Git](/git/Git.md)
+* [Usando o GitFlow](/git/Flow.md)
 * [Padrão de Mensagem em Commits](/git/Commits.md)
 
 #### Configurações de Ambiente
