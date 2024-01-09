@@ -28,6 +28,9 @@ Repositório com informações de como configurar o ambiente de desenvolvimento 
 #### Frontend
 * [Mediaqueries](/frontend/media_queries.md)
 
+#### Migrando o Codeigniter para o PHP 8
+* [Renomear classes](/migrate/rename_class.md)
+
 #### Documentações Externas
 
 * [Exemplos de Marcação para READMES](https://guides.github.com/features/mastering-markdown/)
