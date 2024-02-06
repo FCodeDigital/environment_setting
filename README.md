@@ -17,6 +17,7 @@ Repositório com informações de como configurar o ambiente de desenvolvimento 
 * [Criado um VirtualHost no Xampp (Windows)](/configuracoes_ambiente/VHost.md)
 * [Regras de htaccess no CodeIgniter](/configuracoes_ambiente/HtaccessCodeIgniter.md)
 * [Regras de htaccess para WWW e HTTPS](/configuracoes_ambiente/HtaccessHTTP.md)
+* [Configurando o Kubernetes](/configuracoes_ambiente/Kubernetes.md)
 
 #### Locaweb
 * [Alterando versão do PHP](/locaweb/PHPVersion.md)
